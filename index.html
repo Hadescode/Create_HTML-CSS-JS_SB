@@ -37,13 +37,13 @@
       <div class="circle"></div>
       <header>
         <a href="#" class="logo"><img src="./images/logo.png" alt="" /></a>
-        <ul>
+        <ul class="drop-menu">
           <li><a href="#">Home</a></li>
           <i class="icon-menu fas fa-chevron-down"></i>
           <ul class="sub-menu">
-            <li><a href="">Danh mục 1.1</a></li>
-            <li><a href="">Danh mục 1.2</a></li>
-            <li><a href="">Danh mục 1.3</a></li>
+            <li><a href="">Coffee</a></li>
+            <li><a href="">Trà Sữa</a></li>
+            <li><a href="">Cookie</a></li>
           </ul>
           <li><a href="#">Menu</a></li>
           <li><a href="#">What's New</a></li>
@@ -107,6 +107,17 @@
         circle.style.background = color;
       }
     </script>
+     <!-- JQUERY -->
+     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+     <!-- SUB-MENU -->
+    <!-- <script>
+      $(document).ready(function () {
+        $(".sub-menu .icon-menu").click(function () {
+          $(this).parent("li").children(".sub-menu").slideToggle();
+          $(this).toggleClass("fa-chevron-down fa-chevron-right");
+        });
+      });
+    </script> -->
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
